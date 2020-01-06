@@ -1,0 +1,89 @@
+Package: bootsignature
+Architecture: all
+Installed-Size: 50
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 0.8
+Homepage: https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606
+Description: Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire
+Filename: dists/android-tools/termux/binary-all/bootsignature_0.8_all.deb
+Size: 31088
+MD5Sum: b529006609210d5ecbfe0cac7bf9fbc4
+SHA1: 0167e7034923133b29ed47b50369356efae9042b
+SHA256: 8444bcebb8cd2089db0c1daeb3dc92aaec359ae8cc2e0c70053ac1a4ae33baae
+SHA512: 921f06ff21ebbca09be2ca8a15f490285c8ed2ffcd94fd97d8bc18b0795f3a38be24b43373b77bc6e45118ee9cbd16c65eb810d08be7fd87ce8577eda1ce86d7
+
+Package: heroku
+Architecture: all
+Installed-Size: 53886
+Depends: nodejs
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 7.35.1
+Homepage: https://devcenter.heroku.com/articles/heroku-cli
+Description: The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku.
+Filename: dists/android-tools/termux/binary-all/heroku_7.35.1_all.deb
+Size: 6501428
+MD5Sum: 2ea5ff9c703346bf9c531d52906fc5e1
+SHA1: 0da17a68af1920d72d86d98b7fbdba2932b16bc4
+SHA256: 741598d22a4cca16661a7e67e7b1051fed0399ddf58e03e28ea902cf4036bea2
+SHA512: aefd72c17141ec9b88ad0214ac45f8a0f3f0206a760ede4f9ea0c21a3bacaa31356784ce9ad13d279d95fe5b7fc10926fae13e76adcd7fcc6d0cd820a2b7a438
+
+Package: img2sdat
+Architecture: all
+Installed-Size: 148
+Depends: python
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 1.7
+Homepage: https://github.com/xpirt/img2sdat
+Description: Convert sparse EXT4 image to sparse Android data image
+Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
+Size: 34752
+MD5Sum: 314f92d1253c717084e7a9fd3a6a314f
+SHA1: cdccdbf470f79176c90bdcbb565b95272d00e007
+SHA256: 29cc171f0385736f2679974173fdff9a6dba262a058876b5fa577ea7e23ee053
+SHA512: d916e2d07e04bdfad08d940ea3db400ea6a8634f0fcc3b4842c66c9878710f226e74b7eaaeeb74fc461e00985d76b955f5aac75ac06c3f14c1a7ccfb644ec41a
+
+Package: sdat2img
+Architecture: all
+Installed-Size: 27
+Depends: python
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 1.2
+Homepage: https://github.com/xpirt/sdat2img
+Description: Convert sparse Android data image to filesystem ext4 image
+Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
+Size: 3532
+MD5Sum: 4c52ab422108ec47b16c71f11c696c28
+SHA1: a1c68e5c5b2ec4909b85a5499d4c4020a978a313
+SHA256: 339453037c047dc2900e3c698920488d1b65e89058abb69306d90cb0ca743924
+SHA512: b1d536055533626bcb0487cf447a5eca6d85677d44677e7df485c91b4ee6dfaa8acaa9a23777f060fec04b10df7545869409515864a23179b9935595702a6076
+
+Package: translate-shell
+Architecture: all
+Installed-Size: 226
+Depends: curl, fribidi, gawk, mpv, less, rlwrap, hunspell
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 0.9.6.10
+Homepage: https://github.com/soimort/translate-shell
+Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+Filename: dists/android-tools/termux/binary-all/translate-shell_0.9.6.10_all.deb
+Size: 35304
+MD5Sum: 7401f5db8fd795a1c407d971f1f2ddda
+SHA1: 7af02dd2c672c28016136a6faea396241bfa0b18
+SHA256: 6d714db20282488fcbf63c14d222f4916941196d8ddaa62813757cca865b35a3
+SHA512: 9518c7f8a6a54738fa85ec622aa393323b350089b3dbdb7ec30c67beec62047f095a15522fc4a65f2a6fa845ec8866a9c8079cae9f6490946dead352db85c8ef
+
+Package: ytb-player
+Architecture: all
+Installed-Size: 37
+Depends: bc, coreutils, curl, findutils, jq, mpv, ncurses, ncurses-ui-libs, ncurses-utils, python, sed, util-linux
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 4.1
+Homepage: https://github.com/rendiix/rendiix.github.io
+Description: Simple CLI YouTube downloader
+Filename: dists/android-tools/termux/binary-all/ytb-player_4.1_all.deb
+Size: 6124
+MD5Sum: a4abf9ade335aed1e9bad2f3fe023d2c
+SHA1: c12463d2f03cbaa7fdb3c77f5997590bb22a50ef
+SHA256: a4b433629a60afd0c87dff520128eaff4ccf2b80d54e6ab822394c9f42f88759
+SHA512: 01138ac95979856f6414c4a24d80b1ee86ff023f06b22432bb2dcd7191c5539d0099bd77b1bb10e106468a6ce6bf6f730f2e9cf4aed663bf21c8f7db469af5a1
+
