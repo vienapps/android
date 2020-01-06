@@ -5,10 +5,10 @@ apt-get  --assume-yes install coreutils gnupg wget
 # Make the sources.list.d directory
 [ ! -d $PREFIX/etc/apt/sources.list.d ] && mkdir $PREFIX/etc/apt/sources.list.d
 # Write the needed source file
-if [ ! -f "$PREFIX/etc/apt/sources.list.d/rendiix.list" ]; then
-echo -e "deb https://rendiix.github.io android-tools termux" > $PREFIX/etc/apt/sources.list.d/rendiix.list
-wget https://rendiix.github.io/rendiix.gpg
-apt-key add rendiix.gpg
+if [ ! -f "$PREFIX/etc/apt/sources.list.d/harvien.list" ]; then
+echo -e "deb https://harvieno.github.io/android android-tools termux" > $PREFIX/etc/apt/sources.list.d/harvien.list
+wget https://harvieno.github.io/android/harvien.gpg
+apt-key add harvien.gpg
 apt update
 else
 echo "repo already installed"
